@@ -1,0 +1,14 @@
+<!--pages/post/post.wxml-->
+<view>
+  <swiper class="swi">
+    <swiper-item>
+      <image src="../images/2.jpg"></image>
+     </swiper-item>
+    <swiper-item>
+      <image  src="../images/1.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image  src="../images/4.jpg"></image>
+    </swiper-item>
+  </swiper>
+</view>

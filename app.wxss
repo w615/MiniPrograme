@@ -11,3 +11,8 @@
 text{
   color:blue
 }
+.swi{
+  width:100%;
+  height:460rpx;
+
+}

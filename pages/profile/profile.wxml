@@ -1,0 +1,6 @@
+<!--pages/prifile/profile.wxml-->
+
+<text>{{msg}}</text>
+<button>个人中心</button>
+
+<button bindtap="clickMe">点击我</button>

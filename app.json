@@ -1,14 +1,41 @@
 {
-  "pages":[
-    "pages/index/index",
-    "pages/logs/logs"
-  ],
-  "window":{
-    "backgroundTextStyle":"dark",
-    "navigationBarBackgroundColor": "#fff",
+"pages":[
+"pages/index/index",
+"pages/logs/logs",
+"pages/post/post",
+"pages/profile/profile"
+],
+
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#f00",
     "navigationBarTitleText": "首页",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle": "black"
   },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#000000",
+    "backgroundColor": "#fac001",
+    "list":[
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+    {
+      "pagePath": "pages/logs/logs",
+      "text": "登录日志"
+    },
+    {
+      "pagePath": "pages/post/post",
+      "text": "轮播"
+    },
+    {
+      "pagePath": "pages/profile/profile",
+      "text": "个人中心"
+    }
+  ]
+  },
+  
   "style": "v2",
   "sitemapLocation": "sitemap.json"
 }

@@ -22,3 +22,7 @@
 text{
   color:red
 }
+.user-avatar{
+  width:300rpx;
+  height:400rpx
+}
